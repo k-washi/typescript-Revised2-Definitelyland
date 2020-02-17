@@ -1,12 +1,21 @@
 {
-  "name": "ts_test-v1", 
-  "version": "1.0.0", 
-  "description": "", 
-  "main": "index.js", 
-  "author":"kai washizaki", 
+  "name": "ts_test-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "kai washizaki",
   "license": "ISC",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "test": "karma",
     "format": "prettier --write src/**/*.ts"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "karma": "3.0.0",
+    "prettier": "^1.19.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.7.5"
   }
 }
