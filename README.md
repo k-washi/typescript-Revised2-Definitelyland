@@ -75,3 +75,12 @@ npm run format
 tsc --init
 
 ```
+
+# convert js
+
+```bash
+tsc **.ts
+node **.js
+```
+
+
