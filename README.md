@@ -36,6 +36,39 @@ $(npm bin)/tsc -v
 #Version 3.7.5
 ```
 
+# linter
+
+```bash
+npm install --save-dev prettier tslint-config-prettier
+```
+
+```json:tslint.json
+    "extends": [
+        "tslint:recommended",
+        "tslint-config-prettier"
+    ],
+```
+
+```json:.prettierrc
+{
+    "printWidth": 120,
+    "trailingComma": "all",
+    "singleQuote": true
+}
+```
+
+```json:package.json
+{
+  "scripts": {
+    "format": "prettier --write src/**/*.ts"
+  }
+}
+```
+
+```bash
+npm run format
+```
+
 # start
 
 ```bash
