@@ -24,6 +24,7 @@ tac sample.ts
 
 ```bash
 npm install -y
+npm install
 npm install --save-dev typescript
 ./node_modules/.bin/tsc -v
 #Version 3.7.5
@@ -84,3 +85,14 @@ node **.js
 ```
 
 
+# test
+
+```json:package.json
+"scripts": { 
+ "test": "karma" 
+}, 
+```
+
+```bash
+npm test
+```
