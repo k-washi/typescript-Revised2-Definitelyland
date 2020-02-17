@@ -7,12 +7,17 @@
   "license": "ISC",
   "scripts": {
     "test": "karma",
-    "format": "prettier --write src/**/*.ts"
+    "format": "prettier --write src/**/*.ts",
+    "compile": "tsc",
+    "tsc": "tsc",
+    "watch": "tsc --watch",
+    "serve": "browser-sync start --server --watch"
   },
   "dependencies": {
     "lodash": "^4.17.15"
   },
   "devDependencies": {
+    "browser-sync": "^2.26.7",
     "karma": "3.0.0",
     "prettier": "^1.19.1",
     "tslint-config-prettier": "^1.18.0",
