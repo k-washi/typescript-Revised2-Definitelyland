@@ -83,3 +83,7 @@ var performCalculatio = (a, b, calculationFn) => {
     console.log(`The result is ${calculationFn(a, b)}`);
 };
 performCalculatio(5, 10, (x, y) => x + y);
+const myThing = {
+    name: "Conm",
+    description: "tetsetets"
+};
